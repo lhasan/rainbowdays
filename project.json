@@ -1,0 +1,59 @@
+{
+  "name": "레인보우데이즈: 소원나무 이야기",
+  "version": "3.0",
+  "created": "2026-02-04",
+  
+  "production": {
+    "target": "5-10세 어린이",
+    "format": "3D CGI 애니메이션",
+    "episodeLength": "3분",
+    "episodesPerSeason": 26,
+    "platform": "유튜브 키즈",
+    "tools": ["Whisk", "Veo 2", "나노바나나"]
+  },
+  
+  "worldbuilding": {
+    "소원나무": {
+      "description": "우주 중심의 세계수, 소원을 열매로 맺음",
+      "images": ["소원나무_전경_마을.png", "소원나무_얼굴_클로즈업.png", "소원나무_크리스탈포탈.png"]
+    },
+    "소원의정원": {
+      "description": "소원나무 주변, 7명이 사는 곳",
+      "images": ["소원의정원_마을_몽실이.png"]
+    },
+    "소원열매": {
+      "description": "소원이 담긴 빛나는 열매",
+      "maxEntry": 2
+    }
+  },
+  
+  "characters": [
+    {"name": "몽실이", "emoji": "🐑", "animal": "양", "color": "보라", "power": "위로", "ability": "달빛 자장가", "role": "치유사"},
+    {"name": "써니", "emoji": "🦁", "animal": "사자", "color": "빨강", "power": "용기", "ability": "파이팅 플레어", "role": "리더"},
+    {"name": "퐁당이", "emoji": "🦭", "animal": "물개", "color": "파랑", "power": "화해", "ability": "평화의 물결", "role": "중재자"},
+    {"name": "씽씽이", "emoji": "🐿️", "animal": "다람쥐", "color": "초록", "power": "탐험", "ability": "숲의 속삭임", "role": "탐험가"},
+    {"name": "알록이", "emoji": "🦄", "animal": "유니콘", "color": "무지개", "power": "창의", "ability": "무지개 변신", "role": "아이디어"},
+    {"name": "쿠르릉", "emoji": "🐻", "animal": "곰", "color": "갈색", "power": "보호", "ability": "대지의 방패", "role": "수호자"},
+    {"name": "포근이", "emoji": "🐰", "animal": "토끼", "color": "분홍", "power": "사랑", "ability": "구름 비행", "role": "하트"}
+  ],
+  
+  "villain": {
+    "name": "그림자",
+    "origin": "잊혀진 소원들의 슬픔과 분노",
+    "goal": "소원나무를 시들게 해서 우주를 어둠으로",
+    "attacks": ["소원 오염", "소원 가로채기", "그림자 분신"]
+  },
+  
+  "growthSystem": {
+    "easy": "잎사귀 +1",
+    "normal": "가지 +1",
+    "hard": "큰 가지 + 꽃",
+    "darkFruit": "황금 열매"
+  },
+  
+  "signatureSpell": "무지개의 마음으로, 소원을 지키러 갈게!",
+  
+  "notion": {
+    "planPage": "2fdaf24585e881b28ee8ce0f7730e1fe"
+  }
+}
